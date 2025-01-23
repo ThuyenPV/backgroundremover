@@ -1,0 +1,144 @@
+PODS:
+  - Flutter (1.0.0)
+  - google_mlkit_commons (0.6.1):
+    - Flutter
+    - MLKitVision
+  - google_mlkit_selfie_segmentation (0.6.0):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/SegmentationSelfie (~> 4.0.0)
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/MLKitCore (4.0.0):
+    - MLKitCommon (~> 9.0.0)
+  - GoogleMLKit/SegmentationSelfie (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitSegmentationSelfie (~> 1.0.0-beta9)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/UserDefaults (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (2.3.0)
+  - image_editor_common (1.0.0):
+    - Flutter
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - MLImage (1.0.0-beta4)
+  - MLKitCommon (9.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - MLKitSegmentationCommon (1.0.0-beta9):
+    - MLKitCommon (~> 9.0)
+    - MLKitXenoCommon (= 1.0.0-beta11)
+  - MLKitSegmentationSelfie (1.0.0-beta9):
+    - MLKitSegmentationCommon (= 1.0.0-beta9)
+  - MLKitVision (5.0.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+    - MLImage (= 1.0.0-beta4)
+    - MLKitCommon (~> 9.0)
+  - MLKitXenoCommon (1.0.0-beta11):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PromisesObjC (2.4.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - google_mlkit_commons (from `.symlinks/plugins/google_mlkit_commons/ios`)
+  - google_mlkit_selfie_segmentation (from `.symlinks/plugins/google_mlkit_selfie_segmentation/ios`)
+  - image_editor_common (from `.symlinks/plugins/image_editor_common/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLImage
+    - MLKitCommon
+    - MLKitSegmentationCommon
+    - MLKitSegmentationSelfie
+    - MLKitVision
+    - MLKitXenoCommon
+    - nanopb
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  google_mlkit_commons:
+    :path: ".symlinks/plugins/google_mlkit_commons/ios"
+  google_mlkit_selfie_segmentation:
+    :path: ".symlinks/plugins/google_mlkit_selfie_segmentation/ios"
+  image_editor_common:
+    :path: ".symlinks/plugins/image_editor_common/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  google_mlkit_commons: f27386da2a4d88eb7c56b4dd38dfcf61d9257d57
+  google_mlkit_selfie_segmentation: 239ae80652b64b6e1633cc5ee54b038ae41808d4
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleMLKit: 2bd0dc6253c4d4f227aad460f69215a504b2980e
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  image_editor_common: 3de87e7c4804f4ae24c8f8a998362b98c105cac1
+  image_picker_ios: 7fe1ff8e34c1790d6fff70a32484959f563a928a
+  MLImage: 7bb7c4264164ade9bf64f679b40fb29c8f33ee9b
+  MLKitCommon: c1b791c3e667091918d91bda4bba69a91011e390
+  MLKitSegmentationCommon: 15dcd331c631b2dd615bc2ce829e4fbec9b101d1
+  MLKitSegmentationSelfie: 94c51690e93068160c6585525357ee722a9cda0a
+  MLKitVision: 8baa5f46ee3352614169b85250574fde38c36f49
+  MLKitXenoCommon: 9fbc49cbaf44767693aac1bce4d866020e089d55
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.16.2
