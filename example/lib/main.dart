@@ -67,35 +67,35 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               icon: Icon(Icons.add_a_photo),
             ),
-            if (imageFromGallery != null)
-              ExtendedImage.file(
-                File(imageFromGallery!),
-                fit: BoxFit.contain,
-                mode: ExtendedImageMode.editor,
-                extendedImageEditorKey: editorGlobalKey,
-                cacheRawData: true,
-                initEditorConfigHandler: (state) {
-                  return EditorConfig(
-                    cropAspectRatio: 1.0,
-                    maxScale: 4.0,
-                    cropRectPadding: const EdgeInsets.all(20.0),
-                    hitTestSize: 20.0,
-                    initCropRectType: InitCropRectType.imageRect,
-                    controller: _editorController,
-                  );
-                },
-              )
-            else
-              const Padding(
-                padding: EdgeInsets.all(20.0),
-                child: Text('Select an image to begin'),
-              ),
-            Visibility(
-              visible: afterRemoveBackground != null,
-              child: Image.memory(
-                afterRemoveBackground!,
-              ),
-            ),
+            // if (imageFromGallery != null)
+            //   ExtendedImage.file(
+            //     File(imageFromGallery!),
+            //     fit: BoxFit.contain,
+            //     mode: ExtendedImageMode.editor,
+            //     extendedImageEditorKey: editorGlobalKey,
+            //     cacheRawData: true,
+            //     initEditorConfigHandler: (state) {
+            //       return EditorConfig(
+            //         cropAspectRatio: 1.0,
+            //         maxScale: 4.0,
+            //         cropRectPadding: const EdgeInsets.all(20.0),
+            //         hitTestSize: 20.0,
+            //         initCropRectType: InitCropRectType.imageRect,
+            //         controller: _editorController,
+            //       );
+            //     },
+            //   )
+            // else
+            //   const Padding(
+            //     padding: EdgeInsets.all(20.0),
+            //     child: Text('Select an image to begin'),
+            //   ),
+            // Visibility(
+            //   visible: afterRemoveBackground != null,
+            //   child: Image.memory(
+            //     afterRemoveBackground!,
+            //   ),
+            // ),
             IconButton(
               onPressed: () async {
                 imageSelected = await onCropImage();
